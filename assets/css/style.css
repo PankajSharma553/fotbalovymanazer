@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -135,11 +133,6 @@ textarea::placeholder {
     background-color: var(--black-color);
   }
 
-/* .header.scrolled {
-    background: var(--purple-light);
-    top: 0;
-    box-shadow: rgb(255 255 255 / 35%) 0px 5px 15px;
-  } */
 
 .header_wrappr {
   display: flex;
@@ -151,7 +144,7 @@ textarea::placeholder {
   width: 21%;
 }
 .header_logoLnk {
-  background-image: url("/assets/images/logo.png");
+  background-image: url("../images/logo.png");
   height: 70px;
   width: 240px;
   background-repeat: no-repeat;
@@ -223,7 +216,7 @@ textarea::placeholder {
 
 .humburger_icon,
 .close_menuIcon {
-  background-image: url("/assets/images/icons8-hamburger-menu-50.png");
+  background-image: url("../images/icons8-hamburger-menu-50.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -233,7 +226,7 @@ textarea::placeholder {
   cursor: pointer;
 }
 .close_menuIcon {
-  background-image: url("/assets/images/icons8-close-50.png");
+  background-image: url("../images/icons8-close-50.png");
   position: absolute;
   top: 24px;
   right: 15px;
@@ -284,7 +277,7 @@ textarea::placeholder {
   width: 40%;
 }
 .banner_right {
-  background-image: url("/assets/images/hero_img.webp");
+  background-image: url("../images/hero_img.webp");
   height: 540px;
   background-repeat: no-repeat;
   background-position: center;
@@ -293,7 +286,7 @@ textarea::placeholder {
 }
 /* welcome */
 .welcome {
-  background-image: url("/assets/images/welcome.webp");
+  background-image: url("../images/welcome.webp");
   height: 650px;
   background-repeat: no-repeat;
   background-position: center;
@@ -507,7 +500,7 @@ textarea::placeholder {
   border-bottom: 1px solid var(--white-color);
 }
 .singup_left {
-  background-image: url("/assets/images/singup.webp");
+  background-image: url("../images/singup.webp");
   height: 650px;
   background-repeat: no-repeat;
   background-position: center;
