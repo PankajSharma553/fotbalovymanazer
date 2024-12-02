@@ -1,0 +1,332 @@
+/* media query 1200 */
+@media (max-width: 1200px) {
+  .header_navbar {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header_list {
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+  }
+  .header_right {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .humburger {
+    display: flex;
+  }
+  .header_navbar {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: #292a7c;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+    padding: 16px;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.9) -4px 9px 25px -6px;
+    transform: translateX(100%);
+    max-width: 350px;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .header_navbar.active {
+    right: 0;
+    transform: translateX(0%);
+  }
+  .close_menu {
+    display: flex;
+  }
+  .header_item {
+    padding-left: 0;
+  }
+  .banner_right {
+    height: 500px;
+  }
+  .banner_heading {
+    font-size: 75px;
+    line-height: 100%;
+  }
+  .banner_btns {
+    margin-top: 85px;
+  }
+  .welcome {
+    height: 600px;
+  }
+  .singup_left {
+    height: 600px;
+  }
+  .singup_tobar {
+    margin-bottom: 110px;
+  }
+  .leagues_heading {
+    font-size: 34px;
+    margin-bottom: 48px;
+    margin-top: 16px;
+  }
+  .leagues_left {
+    height: 650px;
+  }
+}
+/* media query 1024 */
+@media (max-width: 1024px) {
+  .banner_heading {
+    font-size: 65px;
+    margin-bottom: 16px;
+  }
+  .banner_btns {
+    margin-top: 70px;
+  }
+  .welcome_heading {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+  .welcome_desc {
+    font-size: 20px;
+  }
+  .welcome {
+    height: 550px;
+  }
+  .singup_left {
+    height: 550px;
+  }
+  .singup_tobar {
+    margin-bottom: 85px;
+  }
+  .leagues_left {
+    height: 600px;
+  }
+  .leagues_heading {
+    font-size: 32px;
+    margin-bottom: 42px;
+    margin-top: 12px;
+  }
+}
+
+/* media query 991 */
+@media (max-width: 991px) {
+  .banner_heading {
+    font-size: 65px;
+  }
+  .banner_btns {
+    margin-top: 50px;
+  }
+  .singup_left {
+    width: 100%;
+  }
+  .singup_right {
+    width: 100%;
+  }
+  .singup_wrapper {
+    flex-direction: column;
+  }
+  .welcome {
+    height: 500px;
+  }
+  .singup_left {
+    height: 500px;
+  }
+  .choose_sec {
+    width: 47%;
+    margin-bottom: 1rem;
+  }
+  .singup_tobar {
+    margin-bottom: 75px;
+  }
+  .leagues_heading {
+    margin-bottom: 48px;
+  }
+  .leagues_left {
+    height: 550px;
+  }
+  .leagues_heading {
+    font-size: 32px;
+    margin-bottom: 36px;
+    margin-top: 12px;
+  }
+  .footer_navbar {
+    width: 26%;
+  }
+}
+/* media query 768 */
+@media (max-width: 768px) {
+  .header_logoLnk {
+    height: 50px;
+    width: 180px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+  .banner_btns {
+    margin-top: 32px;
+  }
+  .banner_desc {
+    font-size: 18px;
+  }
+  .banner_heading {
+    font-size: 55px;
+  }
+  .banner_right {
+    height: 400px;
+  }
+  .banner_wrapper {
+    flex-direction: column;
+  }
+  .banner_left {
+    width: 100%;
+  }
+  .banner_right {
+    width: 100%;
+  }
+  .welcome {
+    height: 450px;
+  }
+  .singup_left {
+    height: 450px;
+  }
+  .choose_sec {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .singup_tobar {
+    margin-bottom: 65px;
+  }
+  .leagues_left {
+    height: 500px;
+  }
+  .footer_left {
+    width: 40%;
+    order: 1;
+  }
+  .welcome_heading {
+    font-size: 28px;
+    margin-bottom: 28px;
+  }
+  .welcome_desc {
+    font-size: 18px;
+  }
+  .choose_heading {
+    font-size: 38px;
+    margin-bottom: 30px;
+  }
+  .choose_title {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .choose_desc {
+    font-size: 18px;
+  }
+  .leagues_wrapper {
+    flex-direction: column;
+  }
+  .leagues_left {
+    width: 100%;
+  }
+  .leagues_right {
+    width: 100%;
+  }
+  .leagues_inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .leagues_heading {
+    font-size: 28px;
+    margin-bottom: 24px;
+    margin-top: 12px;
+  }
+  .footer_icon {
+    width: 180px;
+  }
+  .footer_content {
+    padding-block: 38px;
+  }
+  .footer_navbar {
+    width: 40%;
+    order: 4;
+  }
+  .footer_socials {
+    width: 40%;
+    order: 2;
+  }
+  .social_link {
+    width: 24px;
+    height: 24px;
+  }
+}
+/* media query 575 */
+@media (max-width: 575px) {
+  .banner_btns {
+    gap: 1rem;
+  }
+  .banner_heading {
+    font-size: 32px;
+  }
+  .banner_btns {
+    margin-top: 20px;
+  }
+  .banner_right {
+    height: 300px;
+  }
+  .singup_email {
+    width: 100%;
+    gap: 4px;
+  }
+  .welcome_heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .choose_title {
+    margin-bottom: 8px;
+  }
+  .choose_heading {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+  .choose_desc {
+    font-size: 16px;
+  }
+  .singup_tobar {
+    margin-bottom: 50px;
+  }
+  .leagues_left {
+    height: 300px;
+  }
+  .footer_title {
+    font-size: 22px;
+  }
+  .welcome {
+    height: 400px;
+  }
+  .singup_left {
+    height: 400px;
+  }
+  .welcome_desc {
+    font-size: 16px;
+  }
+  .leagues_inner {
+    gap: 12px;
+  }
+  .footer_left {
+    width: 100%;
+  }
+  .footer_navbar {
+    width: 100%;
+    order: 4;
+  }
+  .footer_content {
+    padding-block: 24px;
+  }
+  .footer_socials {
+    width: 100%;
+    order: 4;
+  }
+  .footer_social {
+    padding: 4px;
+  }
+}
