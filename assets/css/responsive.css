@@ -1,5 +1,8 @@
 /* media query 1200 */
 @media (max-width: 1200px) {
+  .section{
+    margin-block: 4rem;
+}
   .header_navbar {
     flex-direction: column;
     width: 100%;
@@ -171,6 +174,9 @@ gap: 16px;
 }
 /* media query 1024 */
 @media (max-width: 1024px) {
+  .section{
+    margin-block: 3rem;
+}
   .banner_heading {
     font-size: 65px;
     margin-bottom: 16px;
@@ -201,6 +207,10 @@ gap: 16px;
   font-size: 32px;
   margin-bottom: 42px;
   margin-top: 12px;
+}
+.sec_heading {
+  font-size: 40px;
+  margin-bottom: 36px;
 }
 }
 
@@ -375,6 +385,9 @@ gap: 16px;
 }
 /* media query 768 */
 @media (max-width: 768px) {
+  .section{
+    margin-block: 2rem;
+}
   .header_logoLnk {
     height: 50px;
     width: 180px;
@@ -456,7 +469,6 @@ gap: 16px;
  flex-wrap: wrap;
  gap: 16px;
 }
-
 .leagues_heading {
   font-size: 28px;
   margin-bottom: 24px;
@@ -480,12 +492,27 @@ gap: 16px;
     width: 24px;
     height: 24px;
   }
+  .contact_inner {
+   flex-direction: column;
+}
+.contact_left,.contact_right {
+  width: 100%;
+}
+.contact_rightImg {
+  height: 400px;
+}
+.sec_heading {
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+.sec_title {
+  font-size: 20px;
+}
 }
 @media screen and (max-width:767px) {
   .banner .row {
       flex-direction: column-reverse;
   }
-
   .home-banner-text {
       padding: 30px 0;
   }
@@ -947,11 +974,18 @@ gap: 4px;
     .leagues-table td h6 {
         font-size: 14px;
     }
+    .contact_rightImg {
+      height: 350px;
+    }
+    .sec_content {
+      padding: 12px;
+  }
+    .sec_heading {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
     /* tables css end*/
-
-
 }
-
 /* media 480 */
 @media screen and (max-width:480px) {
   .site-logo a {

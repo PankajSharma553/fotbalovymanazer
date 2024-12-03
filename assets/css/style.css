@@ -128,11 +128,10 @@ textarea::placeholder {
     top: 0;
     left: 0;
     z-index: 5;
-    padding: 15px 0;
+    /* padding: 15px 0; */
     transition: background-color 0.3s, padding 0.3s, box-shadow 0.3s;
     background-color: var(--black-color);
   }
-
 
 .header_wrappr {
   display: flex;
@@ -411,7 +410,6 @@ textarea::placeholder {
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
 }
-
 .footer_link:hover::after {
   width: 100%;
   left: 0;
@@ -697,7 +695,99 @@ textarea::placeholder {
   font-family: var(--secondary-font);
 }
 
+/* about section */
 
+.section{
+    margin-block: 5rem;
+}
+.sec_content{
+    max-width: 1024px;
+    width: 100%;
+    padding: 24px;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: rgba(215, 124, 141, 0.6) 0px 7px 29px 0px;
+}
+.sec_heading{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--white-color);
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+.sec_title{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--pink-color);
+    margin-bottom: 10px;
+}
+.sub_title{
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(220, 220, 220);
+    margin-block: 1rem;
+}
+.sec_desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white-color);
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+.sec_list{
+    margin-bottom: 16px;
+}
+.sec_item{
+    list-style: disc;
+    margin-left: 16px;
+    color: var(--white-color);
+    line-height: 150%;
+    margin-bottom: 4px;
+}
+.sec_item strong{
+    color: var(--pink-color);
+}
+.sec_item::marker{
+    color: var(--pink-color);
+}
+/* contact us section */
+.contact_wrapper{
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: rgba(215, 124, 141, 0.6) 0px 7px 29px 0px;
+}
+.contact_inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.contact_left{
+    width: 49%;
+    margin-bottom:16px;
+}
+.contact_right{
+    width: 49%;
+
+}
+.contact_left input{
+   margin-bottom: 16px;
+}
+.contact_rightImg{
+    background-image: url("../images/contact.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+   border-radius: 4px;
+}
+.sec_email{
+    color: var(--pink-color);
+}
+.sec_email:hover{
+    text-decoration: underline;
+}
 /* ==== */
 
 
@@ -959,6 +1049,7 @@ body .custom-modal .custom-modal-dialog {
     border-radius: 10px;
     margin-top: 40px;
 }
+
 
 .login .container .form_rest .form_header .registration_logo img {
     max-width: 100%;
@@ -1875,8 +1966,6 @@ table tr {
     text-align: center;
 }
 
-
-
 .toggle-target a {
     color: #000;
     font-size: 18px;
@@ -2215,7 +2304,7 @@ span.edit_pan i {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.556;
-    color: #fafaff;
+    /* color: #fafaff; */
 }
 
 .user-content-box button {
